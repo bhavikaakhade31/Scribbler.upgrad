@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- TODO: Include Font Awesome file here -->
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <title> ScriBBler</title>
+    <!-- TODO: Include Google Fonts file here -->
+    <link rel="stylesheet" href="./index.css">
+    <script src="index.js" defer>
+    </script>
+</head>
+
+<body background="images/background.jpg">
+    <!-- TODO: Include all your code for the header and home page here -->
+    <div class="navbar">
+        <span class="title" style="color: blue;">ScriBBler
+            <a class="buttons">
+                <button id="Sign-up">Sign-up</button>
+                <button id="Sign-in">Sign-in</button>
+            </a>
+            </span>
+        <span class="subheading">Explore,Imagine,Create</span>
+    </div>
+    <div class="posts">
+        <button id="All">All Posts</button>
+        <button id="create"> Create Post</button> 
+    </div>
+    <div  id="myModal" class="container">
+        <form class="form">
+            <div class="header-container">
+                <span class="get">Get Started</span>
+                <span class="close1">&times;</span>
+            </div>
+            <label id="labels">Name</label>
+            <input type="text" placeholder="Enter your name" class="input" >
+            <label id="labels">Username</label>
+            <input type="text" placeholder="Enter your username" class="input">
+            <label  id="labels">Password</label>
+            <input type="password" placeholder="Enter your password" class="input">
+            <label id="labels">Confirm Password</label>
+            <input type="password" placeholder="Re-enter your password" class="input">
+            <button class="btn">Sign Up</button>
+         </form>
+    </div>
+
+    <div class="signin-container" id="myModal2">
+        <form class="signin-form">
+            <div class="header-container">
+                <span  class="get"> Welcome Back!</span>
+                <span class="close2">&times;</span>
+            </div>
+            <label id="labels">Username</label>
+            <input type="text" placeholder="Enter your username" class="input">
+            <label id="labels"> Password</label>
+            <input type="password" placeholder="Enter your password" class="input">
+            <button class="btn"> Sign In </button>
+            <div style="margin-top: 10px;">
+            <span style="font-weight: bold;"> Not a member? </span>
+            <button>
+            <a>Sign-up</a> 
+            </button>
+            </div>
+        </form>
+    </div>
+    <div class="input-container" id="myModal3">
+        <form class="input-form">
+            <div class="header-container" style="margin-bottom: 30px;">
+                <span  class="get"> Pen Your Post </span>
+                <span class="close3">&times; </span>
+            </div>
+            <label id="labels"> Title </label>
+            <input placeholder="Enter title of your post" type="text" class="input">
+            <label id="labels"> Contents </label>
+            <input placeholder="Enter the contents of your post" type="text" class="content-box">
+            <div>
+                <button class="btn" style="padding-left: 20px; padding-right: 20px;"> Create </button> 
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

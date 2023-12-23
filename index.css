@@ -1,0 +1,233 @@
+.title{
+    font-family: 'Montez', cursive; 
+    font-size: 30px;
+    display: flex;
+    flex-direction:row;
+    margin-bottom: 0%;
+    margin-left: 10px;
+}
+.subheading{
+    margin-left: 10px;
+}
+.buttons {
+   display: flex;
+   flex-direction: row;
+   justify-content: end;
+   margin-left:auto;
+   margin-right: 20px;
+   align-items: center;
+   
+
+}
+.posts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin-bottom: 0%;
+    
+}
+button{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#Sign-in{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+#Sign-up{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+
+#create{
+    background-color:rgb(202, 162, 59);
+    padding: 5px ;
+    width: 7%;
+}
+
+#All{
+    background-color:rgb(202, 162, 59);
+    padding: 5px ;
+    width: 7%;
+    
+}
+
+body {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    }
+
+    .container{
+        display: none;
+        position: fixed;
+        flex-direction: column;
+        text-align: center;
+        align-items: center; 
+        background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        margin-right: 0%;
+        margin-left: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        overflow: auto;
+        height: 100%;
+        width: 100%;
+          }
+    form{
+       display: flex;
+       flex-direction: column;  
+       justify-content: center;
+       width : 250px;
+       margin-top: 10%;
+       margin-left: 40%;
+       height: 350px;
+       padding: 50px;
+       background-color: #fefefe;
+       
+    }
+    
+    .input{
+        padding: 10px;
+        margin: 7px;
+        background-color: whitesmoke;
+        border: none;
+    }
+.btn{
+    padding: 10px;
+    margin: 7px;
+    background-color:green;
+    color: white;
+    border: none;
+}
+
+#labels{
+    text-align: left;
+    margin-left: 6px;
+}
+.close1 {
+    text-align: end;
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+  }
+   .get{
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: bold;
+   }
+   .header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+   .close1:hover,
+.close1:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.signin-container{
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; 
+    background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.signin-form{
+display: flex;
+flex-direction:column;
+padding: 50px;
+height: 200px;
+margin-top: 15%;
+}
+.close2 {
+    text-align: end;
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close2:hover,
+.close2:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.input-form{
+    display: flex;
+    flex-direction:column;
+    padding: 40px;
+    height: 400px;
+    width: 700px;
+    margin-left: 25%;
+    
+}
+
+.input-container{
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; 
+    background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.content-box{
+    padding: 100px;
+    margin-left: 7px;
+    background-color: whitesmoke;
+    border: none;
+}
+.close3 {
+    text-align: end;
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close3:hover,
+.close3:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
